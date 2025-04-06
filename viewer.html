@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PDF & Markdown Conversion Viewer</title>
+  <style>
+    /* Basic CSS for layout and carousel */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .left-pane {
+      width: 40%;
+      border-right: 1px solid #ccc;
+      display: flex;
+      flex-direction: column;
+    }
+    .dropdown-container {
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #ccc;
+    }
+    .carousel {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+    .slide {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: auto;
+      padding: 10px;
+    }
+    .active {
+      display: block;
+    }
+    .carousel-buttons {
+      text-align: center;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-top: 1px solid #ccc;
+    }
+    .carousel-buttons button {
+      padding: 5px 10px;
+      margin: 0 5px;
+    }
+    .right-pane {
+      flex: 1;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Left pane with dropdown and carousel -->
+    <div class="left-pane">
+      <div class="dropdown-container">
+        <select id="fileSelect">
+          <!-- Options will be populated by JavaScript -->
+        </select>
+      </div>
+      <div class="carousel" id="carousel">
+        <div class="slide" id="slide-docling">
+          <h2>Docling Conversion</h2>
+          <div class="content" id="content-docling"></div>
+        </div>
+        <div class="slide" id="slide-marker">
+          <h2>Marker Conversion</h2>
+          <div class="content" id="content-marker"></div>
+        </div>
+        <div class="slide" id="slide-markitdown">
+          <h2>Markitdown Conversion</h2>
+          <div class="content" id="content-markitdown"></div>
+        </div>
+        <div class="slide" id="slide-pymupdf4llm">
+          <h2>Pymupdf4llm Conversion</h2>
+          <div class="content" id="content-pymupdf4llm"></div>
+        </div>
+      </div>
+      <div class="carousel-buttons">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+    <!-- Right pane with PDF viewer -->
+    <div class="right-pane">
+      <iframe id="pdfViewer" src=""></iframe>
+    </div>
+  </div>
+
+  <!-- Marked.js library for markdown conversion -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    // Example file list from the resources folder (without extensions)
+    const fileList = ["2400dpi", "3small", "acroform", "aspect", "blank", "c02-22", "cardinal", "ccitt", "cmyk", "enormous", "epson", "formxobject", "francais", "graph", "graph_ocred", "hugemono", "invalid", "jbig2", "jbig2_baddevicen", "kcs", "lichtenstein", "link", "linn", "livecycle", "masks", "meta", "missing_docinfo", "multipage", "negzero", "no_contents", "overlay", "palette", "poster", "rotated_skew", "skew", "tagged", "toc", "trivial", "truetype_font_nomapping", "type3_font_nomapping", "vector"]
+
+    // Current carousel slide index
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    // Populate the dropdown with file names
+    const fileSelect = document.getElementById('fileSelect');
+    fileList.forEach(file => {
+      const option = document.createElement('option');
+      option.value = file;
+      option.textContent = file;
+      fileSelect.appendChild(option);
+    });
+
+    // Load a markdown file for a given conversion type and file name
+    function loadMarkdown(conversion, file) {
+      const filePath = conversion + '/' + file + '.md';
+      fetch(filePath)
+        .then(response => {
+          if (!response.ok) {
+            return "Error loading file: " + filePath;
+          }
+          return response.text();
+        })
+        .then(text => {
+          document.getElementById('content-' + conversion).innerHTML = marked.parse(text);
+        })
+        .catch(err => {
+          document.getElementById('content-' + conversion).innerHTML = "Error: " + err;
+        });
+    }
+
+    // Load all markdown conversions for the selected file
+    function loadAllMarkdown(file) {
+      const conversions = ['docling', 'marker', 'markitdown', 'pymupdf4llm'];
+      conversions.forEach(conv => {
+        loadMarkdown(conv, file);
+      });
+    }
+
+    // Load the PDF in the iframe
+    function loadPDF(file) {
+      document.getElementById('pdfViewer').src = 'resources/' + file + '.pdf';
+    }
+
+    // Display the slide at the given index
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    // Carousel button event listeners
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    });
+
+    // Update the page when a file is selected
+    fileSelect.addEventListener('change', (e) => {
+      const selectedFile = e.target.value;
+      loadPDF(selectedFile);
+      loadAllMarkdown(selectedFile);
+      // Reset carousel to the first slide
+      currentSlide = 0;
+      showSlide(currentSlide);
+    });
+
+    // Initialize the page with the first file (if available)
+    if (fileList.length > 0) {
+      fileSelect.value = fileList[0];
+      loadPDF(fileList[0]);
+      loadAllMarkdown(fileList[0]);
+      showSlide(currentSlide);
+    }
+  </script>
+</body>
+</html>

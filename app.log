@@ -1,0 +1,838 @@
+2025-04-06 15:00:54 [INFO] Found 41 PDF file(s) in the resources directory.
+2025-04-06 15:00:54 [INFO] All files have been processed in 0.00 seconds.
+2025-04-06 15:02:21 [INFO] Found 41 PDF file(s) in the resources directory.
+2025-04-06 15:02:21 [INFO] [process_file] Starting processing for resources\2400dpi.pdf
+2025-04-06 15:02:21 [INFO] [pymupdf4llm] Starting conversion for resources\2400dpi.pdf
+2025-04-06 15:02:21 [INFO] [pymupdf4llm] Completed conversion for resources\2400dpi.pdf in 0.06 seconds
+2025-04-06 15:02:21 [INFO] [markitdown] Starting conversion for resources\2400dpi.pdf
+2025-04-06 15:02:21 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:02:21 [INFO] [markitdown] Completed conversion for resources\2400dpi.pdf in 0.04 seconds
+2025-04-06 15:02:21 [INFO] [docling] Starting conversion for resources\2400dpi.pdf
+2025-04-06 15:02:21 [INFO] Going to convert document batch...
+2025-04-06 15:02:21 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:02:21 [INFO] Loading plugin 'docling_defaults'
+2025-04-06 15:02:21 [INFO] Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-04-06 15:02:21 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:22 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:23 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:23 [INFO] Loading plugin 'docling_defaults'
+2025-04-06 15:02:23 [INFO] Registered picture descriptions: ['vlm', 'api']
+2025-04-06 15:02:23 [INFO] Processing document 2400dpi.pdf
+2025-04-06 15:02:24 [INFO] Finished converting document 2400dpi.pdf in 3.83 sec.
+2025-04-06 15:02:24 [INFO] [docling] Completed conversion for resources\2400dpi.pdf in 3.84 seconds
+2025-04-06 15:02:24 [INFO] [marker] Starting conversion for resources\2400dpi.pdf
+2025-04-06 15:02:31 [INFO] [marker] Completed conversion for resources\2400dpi.pdf in 6.87 seconds
+2025-04-06 15:02:31 [INFO] [process_file] Finished processing for resources\2400dpi.pdf in 10.84 seconds
+2025-04-06 15:02:31 [INFO] [process_file] Starting processing for resources\3small.pdf
+2025-04-06 15:02:31 [INFO] [pymupdf4llm] Starting conversion for resources\3small.pdf
+2025-04-06 15:02:31 [INFO] [pymupdf4llm] Completed conversion for resources\3small.pdf in 0.13 seconds
+2025-04-06 15:02:31 [INFO] [markitdown] Starting conversion for resources\3small.pdf
+2025-04-06 15:02:32 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:02:32 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:02:32 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:02:32 [INFO] [markitdown] Completed conversion for resources\3small.pdf in 0.04 seconds
+2025-04-06 15:02:32 [INFO] [docling] Starting conversion for resources\3small.pdf
+2025-04-06 15:02:32 [INFO] Going to convert document batch...
+2025-04-06 15:02:32 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:02:32 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:33 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:33 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:34 [INFO] Processing document 3small.pdf
+2025-04-06 15:02:35 [INFO] Finished converting document 3small.pdf in 3.87 sec.
+2025-04-06 15:02:35 [INFO] [docling] Completed conversion for resources\3small.pdf in 3.88 seconds
+2025-04-06 15:02:35 [INFO] [marker] Starting conversion for resources\3small.pdf
+2025-04-06 15:02:47 [INFO] [marker] Completed conversion for resources\3small.pdf in 11.97 seconds
+2025-04-06 15:02:47 [INFO] [process_file] Finished processing for resources\3small.pdf in 16.05 seconds
+2025-04-06 15:02:47 [INFO] [process_file] Starting processing for resources\acroform.pdf
+2025-04-06 15:02:47 [INFO] [pymupdf4llm] Starting conversion for resources\acroform.pdf
+2025-04-06 15:02:47 [INFO] [pymupdf4llm] Completed conversion for resources\acroform.pdf in 0.01 seconds
+2025-04-06 15:02:47 [INFO] [markitdown] Starting conversion for resources\acroform.pdf
+2025-04-06 15:02:47 [INFO] [markitdown] Completed conversion for resources\acroform.pdf in 0.04 seconds
+2025-04-06 15:02:47 [INFO] [docling] Starting conversion for resources\acroform.pdf
+2025-04-06 15:02:47 [INFO] Going to convert document batch...
+2025-04-06 15:02:47 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:02:47 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:49 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:49 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:50 [INFO] Processing document acroform.pdf
+2025-04-06 15:02:50 [INFO] Finished converting document acroform.pdf in 2.83 sec.
+2025-04-06 15:02:50 [INFO] [docling] Completed conversion for resources\acroform.pdf in 2.83 seconds
+2025-04-06 15:02:50 [INFO] [marker] Starting conversion for resources\acroform.pdf
+2025-04-06 15:02:57 [INFO] [marker] Completed conversion for resources\acroform.pdf in 6.53 seconds
+2025-04-06 15:02:57 [INFO] [process_file] Finished processing for resources\acroform.pdf in 9.42 seconds
+2025-04-06 15:02:57 [INFO] [process_file] Starting processing for resources\aspect.pdf
+2025-04-06 15:02:57 [INFO] [pymupdf4llm] Starting conversion for resources\aspect.pdf
+2025-04-06 15:02:57 [INFO] [pymupdf4llm] Completed conversion for resources\aspect.pdf in 0.01 seconds
+2025-04-06 15:02:57 [INFO] [markitdown] Starting conversion for resources\aspect.pdf
+2025-04-06 15:02:57 [INFO] [markitdown] Completed conversion for resources\aspect.pdf in 0.04 seconds
+2025-04-06 15:02:57 [INFO] [docling] Starting conversion for resources\aspect.pdf
+2025-04-06 15:02:57 [INFO] Going to convert document batch...
+2025-04-06 15:02:57 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:02:57 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:58 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:59 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:02:59 [INFO] Processing document aspect.pdf
+2025-04-06 15:03:00 [INFO] Finished converting document aspect.pdf in 3.02 sec.
+2025-04-06 15:03:00 [INFO] [docling] Completed conversion for resources\aspect.pdf in 3.02 seconds
+2025-04-06 15:03:00 [INFO] [marker] Starting conversion for resources\aspect.pdf
+2025-04-06 15:03:07 [INFO] [marker] Completed conversion for resources\aspect.pdf in 6.76 seconds
+2025-04-06 15:03:07 [INFO] [process_file] Finished processing for resources\aspect.pdf in 9.85 seconds
+2025-04-06 15:03:07 [INFO] [process_file] Starting processing for resources\blank.pdf
+2025-04-06 15:03:07 [INFO] [pymupdf4llm] Starting conversion for resources\blank.pdf
+2025-04-06 15:03:07 [INFO] [pymupdf4llm] Completed conversion for resources\blank.pdf in 0.00 seconds
+2025-04-06 15:03:07 [INFO] [markitdown] Starting conversion for resources\blank.pdf
+2025-04-06 15:03:07 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:07 [INFO] [markitdown] Completed conversion for resources\blank.pdf in 0.04 seconds
+2025-04-06 15:03:07 [INFO] [docling] Starting conversion for resources\blank.pdf
+2025-04-06 15:03:07 [INFO] Going to convert document batch...
+2025-04-06 15:03:07 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:03:07 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:08 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:09 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:09 [INFO] Processing document blank.pdf
+2025-04-06 15:03:09 [INFO] Finished converting document blank.pdf in 2.70 sec.
+2025-04-06 15:03:09 [INFO] [docling] Completed conversion for resources\blank.pdf in 2.70 seconds
+2025-04-06 15:03:09 [INFO] [marker] Starting conversion for resources\blank.pdf
+2025-04-06 15:03:16 [INFO] [marker] Completed conversion for resources\blank.pdf in 6.60 seconds
+2025-04-06 15:03:16 [INFO] [process_file] Finished processing for resources\blank.pdf in 9.36 seconds
+2025-04-06 15:03:16 [INFO] [process_file] Starting processing for resources\c02-22.pdf
+2025-04-06 15:03:16 [INFO] [pymupdf4llm] Starting conversion for resources\c02-22.pdf
+2025-04-06 15:03:16 [INFO] [pymupdf4llm] Completed conversion for resources\c02-22.pdf in 0.02 seconds
+2025-04-06 15:03:16 [INFO] [markitdown] Starting conversion for resources\c02-22.pdf
+2025-04-06 15:03:16 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:16 [INFO] [markitdown] Completed conversion for resources\c02-22.pdf in 0.04 seconds
+2025-04-06 15:03:16 [INFO] [docling] Starting conversion for resources\c02-22.pdf
+2025-04-06 15:03:16 [INFO] Going to convert document batch...
+2025-04-06 15:03:16 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:03:16 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:17 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:18 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:18 [INFO] Processing document c02-22.pdf
+2025-04-06 15:03:24 [INFO] Finished converting document c02-22.pdf in 7.77 sec.
+2025-04-06 15:03:24 [INFO] [docling] Completed conversion for resources\c02-22.pdf in 7.78 seconds
+2025-04-06 15:03:24 [INFO] [marker] Starting conversion for resources\c02-22.pdf
+2025-04-06 15:03:31 [INFO] [marker] Completed conversion for resources\c02-22.pdf in 6.77 seconds
+2025-04-06 15:03:31 [INFO] [process_file] Finished processing for resources\c02-22.pdf in 14.63 seconds
+2025-04-06 15:03:31 [INFO] [process_file] Starting processing for resources\cardinal.pdf
+2025-04-06 15:03:31 [INFO] [pymupdf4llm] Starting conversion for resources\cardinal.pdf
+2025-04-06 15:03:31 [INFO] [pymupdf4llm] Completed conversion for resources\cardinal.pdf in 0.25 seconds
+2025-04-06 15:03:31 [INFO] [markitdown] Starting conversion for resources\cardinal.pdf
+2025-04-06 15:03:31 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:31 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:31 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:31 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:03:31 [INFO] [markitdown] Completed conversion for resources\cardinal.pdf in 0.04 seconds
+2025-04-06 15:03:31 [INFO] [docling] Starting conversion for resources\cardinal.pdf
+2025-04-06 15:03:31 [INFO] Going to convert document batch...
+2025-04-06 15:03:31 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:03:31 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:32 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:33 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:03:33 [INFO] Processing document cardinal.pdf
+2025-04-06 15:05:09 [INFO] Finished converting document cardinal.pdf in 97.95 sec.
+2025-04-06 15:05:09 [INFO] [docling] Completed conversion for resources\cardinal.pdf in 97.97 seconds
+2025-04-06 15:05:09 [INFO] [marker] Starting conversion for resources\cardinal.pdf
+2025-04-06 15:05:23 [INFO] [marker] Completed conversion for resources\cardinal.pdf in 13.84 seconds
+2025-04-06 15:05:23 [INFO] [process_file] Finished processing for resources\cardinal.pdf in 112.12 seconds
+2025-04-06 15:05:23 [INFO] [process_file] Starting processing for resources\ccitt.pdf
+2025-04-06 15:05:23 [INFO] [pymupdf4llm] Starting conversion for resources\ccitt.pdf
+2025-04-06 15:05:23 [INFO] [pymupdf4llm] Completed conversion for resources\ccitt.pdf in 0.06 seconds
+2025-04-06 15:05:23 [INFO] [markitdown] Starting conversion for resources\ccitt.pdf
+2025-04-06 15:05:23 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:05:23 [INFO] [markitdown] Completed conversion for resources\ccitt.pdf in 0.04 seconds
+2025-04-06 15:05:23 [INFO] [docling] Starting conversion for resources\ccitt.pdf
+2025-04-06 15:05:23 [INFO] Going to convert document batch...
+2025-04-06 15:05:23 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:05:23 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:05:24 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:05:25 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:05:26 [INFO] Processing document ccitt.pdf
+2025-04-06 15:05:49 [INFO] Finished converting document ccitt.pdf in 26.36 sec.
+2025-04-06 15:05:49 [INFO] [docling] Completed conversion for resources\ccitt.pdf in 26.37 seconds
+2025-04-06 15:05:49 [INFO] [marker] Starting conversion for resources\ccitt.pdf
+2025-04-06 15:05:57 [INFO] [marker] Completed conversion for resources\ccitt.pdf in 7.78 seconds
+2025-04-06 15:05:57 [INFO] [process_file] Finished processing for resources\ccitt.pdf in 34.27 seconds
+2025-04-06 15:05:57 [INFO] [process_file] Starting processing for resources\cmyk.pdf
+2025-04-06 15:05:57 [INFO] [pymupdf4llm] Starting conversion for resources\cmyk.pdf
+2025-04-06 15:05:57 [INFO] [pymupdf4llm] Completed conversion for resources\cmyk.pdf in 0.14 seconds
+2025-04-06 15:05:57 [INFO] [markitdown] Starting conversion for resources\cmyk.pdf
+2025-04-06 15:05:57 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:05:57 [INFO] [markitdown] Completed conversion for resources\cmyk.pdf in 0.05 seconds
+2025-04-06 15:05:57 [INFO] [docling] Starting conversion for resources\cmyk.pdf
+2025-04-06 15:05:57 [INFO] Going to convert document batch...
+2025-04-06 15:05:57 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:05:57 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:05:59 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:05:59 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:00 [INFO] Processing document cmyk.pdf
+2025-04-06 15:06:00 [INFO] Finished converting document cmyk.pdf in 3.03 sec.
+2025-04-06 15:06:00 [INFO] [docling] Completed conversion for resources\cmyk.pdf in 3.03 seconds
+2025-04-06 15:06:00 [INFO] [marker] Starting conversion for resources\cmyk.pdf
+2025-04-06 15:06:06 [INFO] [marker] Completed conversion for resources\cmyk.pdf in 5.55 seconds
+2025-04-06 15:06:06 [INFO] [process_file] Finished processing for resources\cmyk.pdf in 8.80 seconds
+2025-04-06 15:06:06 [INFO] [process_file] Starting processing for resources\enormous.pdf
+2025-04-06 15:06:06 [INFO] [pymupdf4llm] Starting conversion for resources\enormous.pdf
+2025-04-06 15:06:08 [INFO] [pymupdf4llm] Completed conversion for resources\enormous.pdf in 1.87 seconds
+2025-04-06 15:06:08 [INFO] [markitdown] Starting conversion for resources\enormous.pdf
+2025-04-06 15:06:08 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:06:08 [INFO] [markitdown] Completed conversion for resources\enormous.pdf in 0.04 seconds
+2025-04-06 15:06:08 [INFO] [docling] Starting conversion for resources\enormous.pdf
+2025-04-06 15:06:08 [INFO] Going to convert document batch...
+2025-04-06 15:06:08 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:06:08 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:09 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:10 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:11 [INFO] Processing document enormous.pdf
+2025-04-06 15:06:41 [INFO] Finished converting document enormous.pdf in 33.42 sec.
+2025-04-06 15:06:41 [INFO] [docling] Completed conversion for resources\enormous.pdf in 33.43 seconds
+2025-04-06 15:06:41 [INFO] [marker] Starting conversion for resources\enormous.pdf
+2025-04-06 15:06:53 [INFO] [marker] Completed conversion for resources\enormous.pdf in 12.15 seconds
+2025-04-06 15:06:53 [INFO] [process_file] Finished processing for resources\enormous.pdf in 47.51 seconds
+2025-04-06 15:06:53 [INFO] [process_file] Starting processing for resources\epson.pdf
+2025-04-06 15:06:53 [INFO] [pymupdf4llm] Starting conversion for resources\epson.pdf
+2025-04-06 15:06:53 [INFO] [pymupdf4llm] Completed conversion for resources\epson.pdf in 0.05 seconds
+2025-04-06 15:06:53 [INFO] [markitdown] Starting conversion for resources\epson.pdf
+2025-04-06 15:06:53 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:06:53 [INFO] [markitdown] Completed conversion for resources\epson.pdf in 0.04 seconds
+2025-04-06 15:06:53 [INFO] [docling] Starting conversion for resources\epson.pdf
+2025-04-06 15:06:53 [INFO] Going to convert document batch...
+2025-04-06 15:06:53 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:06:53 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:55 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:56 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:06:56 [INFO] Processing document epson.pdf
+2025-04-06 15:07:17 [INFO] Finished converting document epson.pdf in 23.19 sec.
+2025-04-06 15:07:17 [INFO] [docling] Completed conversion for resources\epson.pdf in 23.19 seconds
+2025-04-06 15:07:17 [INFO] [marker] Starting conversion for resources\epson.pdf
+2025-04-06 15:07:26 [INFO] [marker] Completed conversion for resources\epson.pdf in 9.24 seconds
+2025-04-06 15:07:26 [INFO] [process_file] Finished processing for resources\epson.pdf in 32.54 seconds
+2025-04-06 15:07:26 [INFO] [process_file] Starting processing for resources\formxobject.pdf
+2025-04-06 15:07:26 [INFO] [pymupdf4llm] Starting conversion for resources\formxobject.pdf
+2025-04-06 15:07:26 [INFO] [pymupdf4llm] Completed conversion for resources\formxobject.pdf in 0.01 seconds
+2025-04-06 15:07:26 [INFO] [markitdown] Starting conversion for resources\formxobject.pdf
+2025-04-06 15:07:26 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:07:26 [INFO] [markitdown] Completed conversion for resources\formxobject.pdf in 0.04 seconds
+2025-04-06 15:07:26 [INFO] [docling] Starting conversion for resources\formxobject.pdf
+2025-04-06 15:07:26 [INFO] Going to convert document batch...
+2025-04-06 15:07:26 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:07:26 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:27 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:28 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:28 [INFO] Processing document formxobject.pdf
+2025-04-06 15:07:37 [INFO] Finished converting document formxobject.pdf in 11.18 sec.
+2025-04-06 15:07:37 [INFO] [docling] Completed conversion for resources\formxobject.pdf in 11.18 seconds
+2025-04-06 15:07:37 [INFO] [marker] Starting conversion for resources\formxobject.pdf
+2025-04-06 15:07:43 [INFO] [marker] Completed conversion for resources\formxobject.pdf in 5.77 seconds
+2025-04-06 15:07:43 [INFO] [process_file] Finished processing for resources\formxobject.pdf in 17.03 seconds
+2025-04-06 15:07:43 [INFO] [process_file] Starting processing for resources\francais.pdf
+2025-04-06 15:07:43 [INFO] [pymupdf4llm] Starting conversion for resources\francais.pdf
+2025-04-06 15:07:43 [INFO] [pymupdf4llm] Completed conversion for resources\francais.pdf in 0.01 seconds
+2025-04-06 15:07:43 [INFO] [markitdown] Starting conversion for resources\francais.pdf
+2025-04-06 15:07:43 [INFO] [markitdown] Completed conversion for resources\francais.pdf in 0.04 seconds
+2025-04-06 15:07:43 [INFO] [docling] Starting conversion for resources\francais.pdf
+2025-04-06 15:07:43 [INFO] Going to convert document batch...
+2025-04-06 15:07:43 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:07:43 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:44 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:45 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:45 [INFO] Processing document francais.pdf
+2025-04-06 15:07:46 [INFO] Finished converting document francais.pdf in 3.18 sec.
+2025-04-06 15:07:46 [INFO] [docling] Completed conversion for resources\francais.pdf in 3.19 seconds
+2025-04-06 15:07:46 [INFO] [marker] Starting conversion for resources\francais.pdf
+2025-04-06 15:07:53 [INFO] [marker] Completed conversion for resources\francais.pdf in 7.26 seconds
+2025-04-06 15:07:53 [INFO] [process_file] Finished processing for resources\francais.pdf in 10.53 seconds
+2025-04-06 15:07:53 [INFO] [process_file] Starting processing for resources\graph.pdf
+2025-04-06 15:07:53 [INFO] [pymupdf4llm] Starting conversion for resources\graph.pdf
+2025-04-06 15:07:53 [INFO] [pymupdf4llm] Completed conversion for resources\graph.pdf in 0.02 seconds
+2025-04-06 15:07:53 [INFO] [markitdown] Starting conversion for resources\graph.pdf
+2025-04-06 15:07:54 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:07:54 [INFO] [markitdown] Completed conversion for resources\graph.pdf in 0.04 seconds
+2025-04-06 15:07:54 [INFO] [docling] Starting conversion for resources\graph.pdf
+2025-04-06 15:07:54 [INFO] Going to convert document batch...
+2025-04-06 15:07:54 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:07:54 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:55 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:56 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:07:56 [INFO] Processing document graph.pdf
+2025-04-06 15:08:01 [INFO] Finished converting document graph.pdf in 7.77 sec.
+2025-04-06 15:08:01 [INFO] [docling] Completed conversion for resources\graph.pdf in 7.77 seconds
+2025-04-06 15:08:01 [INFO] [marker] Starting conversion for resources\graph.pdf
+2025-04-06 15:08:09 [INFO] [marker] Completed conversion for resources\graph.pdf in 7.25 seconds
+2025-04-06 15:08:09 [INFO] [process_file] Finished processing for resources\graph.pdf in 15.11 seconds
+2025-04-06 15:08:09 [INFO] [process_file] Starting processing for resources\graph_ocred.pdf
+2025-04-06 15:08:09 [INFO] [pymupdf4llm] Starting conversion for resources\graph_ocred.pdf
+2025-04-06 15:08:09 [INFO] [pymupdf4llm] Completed conversion for resources\graph_ocred.pdf in 0.02 seconds
+2025-04-06 15:08:09 [INFO] [markitdown] Starting conversion for resources\graph_ocred.pdf
+2025-04-06 15:08:09 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:08:09 [INFO] [markitdown] Completed conversion for resources\graph_ocred.pdf in 0.05 seconds
+2025-04-06 15:08:09 [INFO] [docling] Starting conversion for resources\graph_ocred.pdf
+2025-04-06 15:08:09 [INFO] Going to convert document batch...
+2025-04-06 15:08:09 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:08:09 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:10 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:11 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:11 [INFO] Processing document graph_ocred.pdf
+2025-04-06 15:08:17 [INFO] Finished converting document graph_ocred.pdf in 7.97 sec.
+2025-04-06 15:08:17 [INFO] [docling] Completed conversion for resources\graph_ocred.pdf in 7.98 seconds
+2025-04-06 15:08:17 [INFO] [marker] Starting conversion for resources\graph_ocred.pdf
+2025-04-06 15:08:23 [INFO] [marker] Completed conversion for resources\graph_ocred.pdf in 5.90 seconds
+2025-04-06 15:08:23 [INFO] [process_file] Finished processing for resources\graph_ocred.pdf in 13.97 seconds
+2025-04-06 15:08:23 [INFO] [process_file] Starting processing for resources\hugemono.pdf
+2025-04-06 15:08:23 [INFO] [pymupdf4llm] Starting conversion for resources\hugemono.pdf
+2025-04-06 15:08:27 [INFO] [pymupdf4llm] Completed conversion for resources\hugemono.pdf in 4.95 seconds
+2025-04-06 15:08:27 [INFO] [markitdown] Starting conversion for resources\hugemono.pdf
+2025-04-06 15:08:28 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:08:28 [INFO] [markitdown] Completed conversion for resources\hugemono.pdf in 0.05 seconds
+2025-04-06 15:08:28 [INFO] [docling] Starting conversion for resources\hugemono.pdf
+2025-04-06 15:08:28 [INFO] Going to convert document batch...
+2025-04-06 15:08:28 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:08:28 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:29 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:30 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:08:30 [INFO] Processing document hugemono.pdf
+2025-04-06 15:09:33 [INFO] Finished converting document hugemono.pdf in 65.01 sec.
+2025-04-06 15:09:33 [INFO] [docling] Completed conversion for resources\hugemono.pdf in 65.01 seconds
+2025-04-06 15:09:33 [INFO] [marker] Starting conversion for resources\hugemono.pdf
+2025-04-06 15:10:18 [INFO] [marker] Completed conversion for resources\hugemono.pdf in 35.54 seconds
+2025-04-06 15:10:18 [INFO] [process_file] Finished processing for resources\hugemono.pdf in 105.60 seconds
+2025-04-06 15:10:18 [INFO] [process_file] Starting processing for resources\invalid.pdf
+2025-04-06 15:10:18 [INFO] [pymupdf4llm] Starting conversion for resources\invalid.pdf
+2025-04-06 15:10:18 [ERROR] [pymupdf4llm] Exception during conversion for resources\invalid.pdf: Failed to open file 'resources\\invalid.pdf'.
+Traceback (most recent call last):
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pymupdf\__init__.py", line 2975, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pymupdf\mupdf.py", line 46652, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\corvette\Documents\Code\pdf_to_md\test_converters.py", line 43, in pdf_to_md_pymu
+    md_text = pymupdf4llm.to_markdown(filename)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pymupdf4llm\helpers\pymupdf_rag.py", line 303, in to_markdown
+    doc = pymupdf.open(doc)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pymupdf\__init__.py", line 2978, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file 'resources\\invalid.pdf'.
+2025-04-06 15:10:18 [INFO] [markitdown] Starting conversion for resources\invalid.pdf
+2025-04-06 15:10:18 [ERROR] [markitdown] Exception during conversion for resources\invalid.pdf: File conversion failed after 1 attempts:
+ - PdfConverter threw PDFSyntaxError with message: No /Root object! - Is this really a PDF?
+Traceback (most recent call last):
+  File "c:\Users\corvette\Documents\Code\pdf_to_md\test_converters.py", line 57, in pdf_to_md_mid
+    result = md.convert(filename)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\markitdown\_markitdown.py", line 260, in convert
+    return self.convert_local(source, stream_info=stream_info, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\markitdown\_markitdown.py", line 314, in convert_local
+    return self._convert(file_stream=fh, stream_info_guesses=guesses, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\markitdown\_markitdown.py", line 600, in _convert
+    raise FileConversionException(attempts=failed_attempts)
+markitdown._exceptions.FileConversionException: File conversion failed after 1 attempts:
+ - PdfConverter threw PDFSyntaxError with message: No /Root object! - Is this really a PDF?
+
+2025-04-06 15:10:18 [INFO] [docling] Starting conversion for resources\invalid.pdf
+2025-04-06 15:10:18 [ERROR] An unexpected error occurred while opening the document invalid.pdf
+Traceback (most recent call last):
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\datamodel\document.py", line 147, in __init__
+    self._init_doc(backend, path_or_stream)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\datamodel\document.py", line 183, in _init_doc
+    self._backend = backend(self, path_or_stream=path_or_stream)
+                    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\backend\docling_parse_v4_backend.py", line 150, in __init__
+    self._pdoc = pdfium.PdfDocument(self.path_or_stream)
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pypdfium2\_helpers\document.py", line 78, in __init__
+    self.raw, to_hold, to_close = _open_pdf(self._input, self._password, self._autoclose)
+                                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pypdfium2\_helpers\document.py", line 678, in _open_pdf
+    raise PdfiumError(f"Failed to load document (PDFium: {pdfium_i.ErrorToStr.get(err_code)}).")
+pypdfium2._helpers.misc.PdfiumError: Failed to load document (PDFium: Data format error).
+2025-04-06 15:10:36 [INFO] Going to convert document batch...
+2025-04-06 15:10:36 [ERROR] [docling] Exception during conversion for resources\invalid.pdf: Input document invalid.pdf is not valid.
+Traceback (most recent call last):
+  File "c:\Users\corvette\Documents\Code\pdf_to_md\test_converters.py", line 71, in pdf_to_md_docling
+    result = converter.convert(filename)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pydantic\_internal\_validate_call.py", line 39, in wrapper_function
+    return wrapper(*args, **kwargs)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pydantic\_internal\_validate_call.py", line 136, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\document_converter.py", line 220, in convert
+    return next(all_res)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\document_converter.py", line 243, in convert_all
+    for conv_res in conv_res_iter:
+                    ^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\document_converter.py", line 278, in _convert
+    for item in map(
+                ~~~^
+        partial(self._process_document, raises_on_error=raises_on_error),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        input_batch,
+        ^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\document_converter.py", line 324, in _process_document
+    conv_res = self._execute_pipeline(in_doc, raises_on_error=raises_on_error)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\docling\document_converter.py", line 360, in _execute_pipeline
+    raise ConversionError(f"Input document {in_doc.file} is not valid.")
+docling.exceptions.ConversionError: Input document invalid.pdf is not valid.
+2025-04-06 15:10:38 [INFO] [marker] Starting conversion for resources\invalid.pdf
+2025-04-06 15:10:43 [ERROR] [marker] Exception during conversion for resources\invalid.pdf: Failed to load document (PDFium: Data format error).
+Traceback (most recent call last):
+  File "c:\Users\corvette\Documents\Code\pdf_to_md\test_converters.py", line 88, in pdf_to_md_marker
+    rendered = converter(filename)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\marker\converters\pdf.py", line 154, in __call__
+    document = self.build_document(filepath)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\marker\converters\pdf.py", line 143, in build_document
+    provider = provider_cls(filepath, self.config)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\marker\providers\pdf.py", line 85, in __init__
+    with self.get_doc() as doc:
+         ~~~~~~~~~~~~^^
+  File "C:\Users\corvette\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\marker\providers\pdf.py", line 109, in get_doc
+    doc = pdfium.PdfDocument(self.filepath)
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pypdfium2\_helpers\document.py", line 78, in __init__
+    self.raw, to_hold, to_close = _open_pdf(self._input, self._password, self._autoclose)
+                                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\corvette\Documents\Code\pdf_to_md\venv\Lib\site-packages\pypdfium2\_helpers\document.py", line 678, in _open_pdf
+    raise PdfiumError(f"Failed to load document (PDFium: {pdfium_i.ErrorToStr.get(err_code)}).")
+pypdfium2._helpers.misc.PdfiumError: Failed to load document (PDFium: Data format error).
+2025-04-06 15:10:44 [INFO] [process_file] Finished processing for resources\invalid.pdf in 26.82 seconds
+2025-04-06 15:10:44 [INFO] [process_file] Starting processing for resources\jbig2.pdf
+2025-04-06 15:10:44 [INFO] [pymupdf4llm] Starting conversion for resources\jbig2.pdf
+2025-04-06 15:10:48 [INFO] [pymupdf4llm] Completed conversion for resources\jbig2.pdf in 4.07 seconds
+2025-04-06 15:10:48 [INFO] [markitdown] Starting conversion for resources\jbig2.pdf
+2025-04-06 15:10:48 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:10:48 [INFO] [markitdown] Completed conversion for resources\jbig2.pdf in 0.05 seconds
+2025-04-06 15:10:48 [INFO] [docling] Starting conversion for resources\jbig2.pdf
+2025-04-06 15:10:49 [INFO] Going to convert document batch...
+2025-04-06 15:10:49 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:10:49 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:10:50 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:10:51 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:10:51 [INFO] Processing document jbig2.pdf
+2025-04-06 15:11:16 [INFO] Finished converting document jbig2.pdf in 27.33 sec.
+2025-04-06 15:11:26 [INFO] [docling] Completed conversion for resources\jbig2.pdf in 37.91 seconds
+2025-04-06 15:11:26 [INFO] [marker] Starting conversion for resources\jbig2.pdf
+2025-04-06 15:11:35 [INFO] [marker] Completed conversion for resources\jbig2.pdf in 8.53 seconds
+2025-04-06 15:11:35 [INFO] [process_file] Finished processing for resources\jbig2.pdf in 50.59 seconds
+2025-04-06 15:11:35 [INFO] [process_file] Starting processing for resources\jbig2_baddevicen.pdf
+2025-04-06 15:11:35 [INFO] [pymupdf4llm] Starting conversion for resources\jbig2_baddevicen.pdf
+2025-04-06 15:11:36 [INFO] [pymupdf4llm] Completed conversion for resources\jbig2_baddevicen.pdf in 1.49 seconds
+2025-04-06 15:11:36 [INFO] [markitdown] Starting conversion for resources\jbig2_baddevicen.pdf
+2025-04-06 15:11:37 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:11:37 [INFO] [markitdown] Completed conversion for resources\jbig2_baddevicen.pdf in 0.06 seconds
+2025-04-06 15:11:37 [INFO] [docling] Starting conversion for resources\jbig2_baddevicen.pdf
+2025-04-06 15:11:37 [INFO] Going to convert document batch...
+2025-04-06 15:11:37 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:11:37 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:11:38 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:11:39 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:11:40 [INFO] Processing document jbig2_baddevicen.pdf
+2025-04-06 15:12:04 [INFO] Finished converting document jbig2_baddevicen.pdf in 27.76 sec.
+2025-04-06 15:12:04 [INFO] [docling] Completed conversion for resources\jbig2_baddevicen.pdf in 27.77 seconds
+2025-04-06 15:12:04 [INFO] [marker] Starting conversion for resources\jbig2_baddevicen.pdf
+2025-04-06 15:12:13 [INFO] [marker] Completed conversion for resources\jbig2_baddevicen.pdf in 8.63 seconds
+2025-04-06 15:12:13 [INFO] [process_file] Finished processing for resources\jbig2_baddevicen.pdf in 37.98 seconds
+2025-04-06 15:12:13 [INFO] [process_file] Starting processing for resources\kcs.pdf
+2025-04-06 15:12:13 [INFO] [pymupdf4llm] Starting conversion for resources\kcs.pdf
+2025-04-06 15:12:14 [INFO] [pymupdf4llm] Completed conversion for resources\kcs.pdf in 0.66 seconds
+2025-04-06 15:12:14 [INFO] [markitdown] Starting conversion for resources\kcs.pdf
+2025-04-06 15:12:14 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:12:14 [INFO] [markitdown] Completed conversion for resources\kcs.pdf in 0.04 seconds
+2025-04-06 15:12:14 [INFO] [docling] Starting conversion for resources\kcs.pdf
+2025-04-06 15:12:14 [INFO] Going to convert document batch...
+2025-04-06 15:12:14 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:12:14 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:15 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:16 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:17 [INFO] Processing document kcs.pdf
+2025-04-06 15:12:18 [INFO] Finished converting document kcs.pdf in 3.89 sec.
+2025-04-06 15:12:18 [INFO] [docling] Completed conversion for resources\kcs.pdf in 3.90 seconds
+2025-04-06 15:12:18 [INFO] [marker] Starting conversion for resources\kcs.pdf
+2025-04-06 15:12:25 [INFO] [marker] Completed conversion for resources\kcs.pdf in 7.45 seconds
+2025-04-06 15:12:25 [INFO] [process_file] Finished processing for resources\kcs.pdf in 12.07 seconds
+2025-04-06 15:12:25 [INFO] [process_file] Starting processing for resources\lichtenstein.pdf
+2025-04-06 15:12:25 [INFO] [pymupdf4llm] Starting conversion for resources\lichtenstein.pdf
+2025-04-06 15:12:25 [INFO] [pymupdf4llm] Completed conversion for resources\lichtenstein.pdf in 0.46 seconds
+2025-04-06 15:12:25 [INFO] [markitdown] Starting conversion for resources\lichtenstein.pdf
+2025-04-06 15:12:26 [INFO] [markitdown] Completed conversion for resources\lichtenstein.pdf in 0.04 seconds
+2025-04-06 15:12:26 [INFO] [docling] Starting conversion for resources\lichtenstein.pdf
+2025-04-06 15:12:26 [INFO] Going to convert document batch...
+2025-04-06 15:12:26 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:12:26 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:27 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:28 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:28 [INFO] Processing document lichtenstein.pdf
+2025-04-06 15:12:31 [INFO] Finished converting document lichtenstein.pdf in 5.89 sec.
+2025-04-06 15:12:31 [INFO] [docling] Completed conversion for resources\lichtenstein.pdf in 5.89 seconds
+2025-04-06 15:12:31 [INFO] [marker] Starting conversion for resources\lichtenstein.pdf
+2025-04-06 15:12:39 [INFO] [marker] Completed conversion for resources\lichtenstein.pdf in 7.52 seconds
+2025-04-06 15:12:39 [INFO] [process_file] Finished processing for resources\lichtenstein.pdf in 13.94 seconds
+2025-04-06 15:12:39 [INFO] [process_file] Starting processing for resources\link.pdf
+2025-04-06 15:12:39 [INFO] [pymupdf4llm] Starting conversion for resources\link.pdf
+2025-04-06 15:12:39 [INFO] [pymupdf4llm] Completed conversion for resources\link.pdf in 0.03 seconds
+2025-04-06 15:12:39 [INFO] [markitdown] Starting conversion for resources\link.pdf
+2025-04-06 15:12:39 [INFO] [markitdown] Completed conversion for resources\link.pdf in 0.06 seconds
+2025-04-06 15:12:39 [INFO] [docling] Starting conversion for resources\link.pdf
+2025-04-06 15:12:39 [INFO] Going to convert document batch...
+2025-04-06 15:12:39 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:12:39 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:40 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:41 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:41 [INFO] Processing document link.pdf
+2025-04-06 15:12:42 [INFO] Finished converting document link.pdf in 3.43 sec.
+2025-04-06 15:12:42 [INFO] [docling] Completed conversion for resources\link.pdf in 3.44 seconds
+2025-04-06 15:12:42 [INFO] [marker] Starting conversion for resources\link.pdf
+2025-04-06 15:12:50 [INFO] [marker] Completed conversion for resources\link.pdf in 7.07 seconds
+2025-04-06 15:12:50 [INFO] [process_file] Finished processing for resources\link.pdf in 10.61 seconds
+2025-04-06 15:12:50 [INFO] [process_file] Starting processing for resources\linn.pdf
+2025-04-06 15:12:50 [INFO] [pymupdf4llm] Starting conversion for resources\linn.pdf
+2025-04-06 15:12:50 [INFO] [pymupdf4llm] Completed conversion for resources\linn.pdf in 0.18 seconds
+2025-04-06 15:12:50 [INFO] [markitdown] Starting conversion for resources\linn.pdf
+2025-04-06 15:12:50 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:12:50 [INFO] [markitdown] Completed conversion for resources\linn.pdf in 0.04 seconds
+2025-04-06 15:12:50 [INFO] [docling] Starting conversion for resources\linn.pdf
+2025-04-06 15:12:50 [INFO] Going to convert document batch...
+2025-04-06 15:12:50 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:12:50 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:51 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:52 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:12:52 [INFO] Processing document linn.pdf
+2025-04-06 15:13:16 [INFO] Finished converting document linn.pdf in 26.39 sec.
+2025-04-06 15:13:16 [INFO] [docling] Completed conversion for resources\linn.pdf in 26.40 seconds
+2025-04-06 15:13:16 [INFO] [marker] Starting conversion for resources\linn.pdf
+2025-04-06 15:13:25 [INFO] [marker] Completed conversion for resources\linn.pdf in 8.38 seconds
+2025-04-06 15:13:25 [INFO] [process_file] Finished processing for resources\linn.pdf in 35.02 seconds
+2025-04-06 15:13:25 [INFO] [process_file] Starting processing for resources\livecycle.pdf
+2025-04-06 15:13:25 [INFO] [pymupdf4llm] Starting conversion for resources\livecycle.pdf
+2025-04-06 15:13:25 [INFO] [pymupdf4llm] Completed conversion for resources\livecycle.pdf in 0.01 seconds
+2025-04-06 15:13:25 [INFO] [markitdown] Starting conversion for resources\livecycle.pdf
+2025-04-06 15:13:25 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:13:25 [INFO] [markitdown] Completed conversion for resources\livecycle.pdf in 0.05 seconds
+2025-04-06 15:13:25 [INFO] [docling] Starting conversion for resources\livecycle.pdf
+2025-04-06 15:13:25 [INFO] Going to convert document batch...
+2025-04-06 15:13:25 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:13:25 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:26 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:27 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:27 [INFO] Processing document livecycle.pdf
+2025-04-06 15:13:28 [INFO] Finished converting document livecycle.pdf in 3.00 sec.
+2025-04-06 15:13:28 [INFO] [docling] Completed conversion for resources\livecycle.pdf in 3.00 seconds
+2025-04-06 15:13:28 [INFO] [marker] Starting conversion for resources\livecycle.pdf
+2025-04-06 15:13:35 [INFO] [marker] Completed conversion for resources\livecycle.pdf in 7.64 seconds
+2025-04-06 15:13:35 [INFO] [process_file] Finished processing for resources\livecycle.pdf in 10.73 seconds
+2025-04-06 15:13:35 [INFO] [process_file] Starting processing for resources\masks.pdf
+2025-04-06 15:13:35 [INFO] [pymupdf4llm] Starting conversion for resources\masks.pdf
+2025-04-06 15:13:36 [INFO] [pymupdf4llm] Completed conversion for resources\masks.pdf in 0.24 seconds
+2025-04-06 15:13:36 [INFO] [markitdown] Starting conversion for resources\masks.pdf
+2025-04-06 15:13:36 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:13:36 [INFO] [markitdown] Completed conversion for resources\masks.pdf in 0.05 seconds
+2025-04-06 15:13:36 [INFO] [docling] Starting conversion for resources\masks.pdf
+2025-04-06 15:13:36 [INFO] Going to convert document batch...
+2025-04-06 15:13:36 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:13:36 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:37 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:38 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:13:38 [INFO] Processing document masks.pdf
+2025-04-06 15:14:01 [INFO] Finished converting document masks.pdf in 25.35 sec.
+2025-04-06 15:14:13 [INFO] [docling] Completed conversion for resources\masks.pdf in 37.72 seconds
+2025-04-06 15:14:13 [INFO] [marker] Starting conversion for resources\masks.pdf
+2025-04-06 15:14:24 [INFO] [marker] Completed conversion for resources\masks.pdf in 11.04 seconds
+2025-04-06 15:14:24 [INFO] [process_file] Finished processing for resources\masks.pdf in 49.06 seconds
+2025-04-06 15:14:24 [INFO] [process_file] Starting processing for resources\meta.pdf
+2025-04-06 15:14:24 [INFO] [pymupdf4llm] Starting conversion for resources\meta.pdf
+2025-04-06 15:14:24 [INFO] [pymupdf4llm] Completed conversion for resources\meta.pdf in 0.09 seconds
+2025-04-06 15:14:24 [INFO] [markitdown] Starting conversion for resources\meta.pdf
+2025-04-06 15:14:25 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:25 [INFO] [markitdown] Completed conversion for resources\meta.pdf in 0.05 seconds
+2025-04-06 15:14:25 [INFO] [docling] Starting conversion for resources\meta.pdf
+2025-04-06 15:14:25 [INFO] Going to convert document batch...
+2025-04-06 15:14:25 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:14:25 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:26 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:27 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:27 [INFO] Processing document meta.pdf
+2025-04-06 15:14:28 [INFO] Finished converting document meta.pdf in 3.06 sec.
+2025-04-06 15:14:28 [INFO] [docling] Completed conversion for resources\meta.pdf in 3.06 seconds
+2025-04-06 15:14:28 [INFO] [marker] Starting conversion for resources\meta.pdf
+2025-04-06 15:14:35 [INFO] [marker] Completed conversion for resources\meta.pdf in 7.69 seconds
+2025-04-06 15:14:35 [INFO] [process_file] Finished processing for resources\meta.pdf in 10.92 seconds
+2025-04-06 15:14:35 [INFO] [process_file] Starting processing for resources\missing_docinfo.pdf
+2025-04-06 15:14:35 [INFO] [pymupdf4llm] Starting conversion for resources\missing_docinfo.pdf
+2025-04-06 15:14:35 [INFO] [pymupdf4llm] Completed conversion for resources\missing_docinfo.pdf in 0.08 seconds
+2025-04-06 15:14:35 [INFO] [markitdown] Starting conversion for resources\missing_docinfo.pdf
+2025-04-06 15:14:35 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:35 [INFO] [markitdown] Completed conversion for resources\missing_docinfo.pdf in 0.05 seconds
+2025-04-06 15:14:35 [INFO] [docling] Starting conversion for resources\missing_docinfo.pdf
+2025-04-06 15:14:35 [INFO] Going to convert document batch...
+2025-04-06 15:14:35 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:14:35 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:37 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:38 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:38 [INFO] Processing document missing_docinfo.pdf
+2025-04-06 15:14:39 [INFO] Finished converting document missing_docinfo.pdf in 3.09 sec.
+2025-04-06 15:14:39 [INFO] [docling] Completed conversion for resources\missing_docinfo.pdf in 3.10 seconds
+2025-04-06 15:14:39 [INFO] [marker] Starting conversion for resources\missing_docinfo.pdf
+2025-04-06 15:14:45 [INFO] [marker] Completed conversion for resources\missing_docinfo.pdf in 6.35 seconds
+2025-04-06 15:14:45 [INFO] [process_file] Finished processing for resources\missing_docinfo.pdf in 9.60 seconds
+2025-04-06 15:14:45 [INFO] [process_file] Starting processing for resources\multipage.pdf
+2025-04-06 15:14:45 [INFO] [pymupdf4llm] Starting conversion for resources\multipage.pdf
+2025-04-06 15:14:47 [INFO] [pymupdf4llm] Completed conversion for resources\multipage.pdf in 2.02 seconds
+2025-04-06 15:14:47 [INFO] [markitdown] Starting conversion for resources\multipage.pdf
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:14:47 [INFO] [markitdown] Completed conversion for resources\multipage.pdf in 0.06 seconds
+2025-04-06 15:14:47 [INFO] [docling] Starting conversion for resources\multipage.pdf
+2025-04-06 15:14:47 [INFO] Going to convert document batch...
+2025-04-06 15:14:47 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:14:47 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:48 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:49 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:14:50 [INFO] Processing document multipage.pdf
+2025-04-06 15:16:51 [INFO] Finished converting document multipage.pdf in 124.23 sec.
+2025-04-06 15:16:51 [INFO] [docling] Completed conversion for resources\multipage.pdf in 124.25 seconds
+2025-04-06 15:16:51 [INFO] [marker] Starting conversion for resources\multipage.pdf
+2025-04-06 15:17:15 [INFO] [marker] Completed conversion for resources\multipage.pdf in 24.02 seconds
+2025-04-06 15:17:15 [INFO] [process_file] Finished processing for resources\multipage.pdf in 150.37 seconds
+2025-04-06 15:17:15 [INFO] [process_file] Starting processing for resources\negzero.pdf
+2025-04-06 15:17:15 [INFO] [pymupdf4llm] Starting conversion for resources\negzero.pdf
+2025-04-06 15:17:15 [INFO] [pymupdf4llm] Completed conversion for resources\negzero.pdf in 0.10 seconds
+2025-04-06 15:17:15 [INFO] [markitdown] Starting conversion for resources\negzero.pdf
+2025-04-06 15:17:15 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:17:15 [INFO] [markitdown] Completed conversion for resources\negzero.pdf in 0.04 seconds
+2025-04-06 15:17:15 [INFO] [docling] Starting conversion for resources\negzero.pdf
+2025-04-06 15:17:15 [INFO] Going to convert document batch...
+2025-04-06 15:17:15 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:17:15 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:17 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:18 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:18 [INFO] Processing document negzero.pdf
+2025-04-06 15:17:33 [INFO] Finished converting document negzero.pdf in 17.30 sec.
+2025-04-06 15:17:33 [INFO] [docling] Completed conversion for resources\negzero.pdf in 17.30 seconds
+2025-04-06 15:17:33 [INFO] [marker] Starting conversion for resources\negzero.pdf
+2025-04-06 15:17:39 [INFO] [marker] Completed conversion for resources\negzero.pdf in 6.42 seconds
+2025-04-06 15:17:39 [INFO] [process_file] Finished processing for resources\negzero.pdf in 23.88 seconds
+2025-04-06 15:17:39 [INFO] [process_file] Starting processing for resources\no_contents.pdf
+2025-04-06 15:17:39 [INFO] [pymupdf4llm] Starting conversion for resources\no_contents.pdf
+2025-04-06 15:17:39 [INFO] [pymupdf4llm] Completed conversion for resources\no_contents.pdf in 0.01 seconds
+2025-04-06 15:17:39 [INFO] [markitdown] Starting conversion for resources\no_contents.pdf
+2025-04-06 15:17:39 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:17:39 [INFO] [markitdown] Completed conversion for resources\no_contents.pdf in 0.05 seconds
+2025-04-06 15:17:39 [INFO] [docling] Starting conversion for resources\no_contents.pdf
+2025-04-06 15:17:39 [INFO] Going to convert document batch...
+2025-04-06 15:17:39 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:17:39 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:41 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:41 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:42 [INFO] Processing document no_contents.pdf
+2025-04-06 15:17:43 [INFO] Finished converting document no_contents.pdf in 3.74 sec.
+2025-04-06 15:17:43 [INFO] [docling] Completed conversion for resources\no_contents.pdf in 3.74 seconds
+2025-04-06 15:17:43 [INFO] [marker] Starting conversion for resources\no_contents.pdf
+2025-04-06 15:17:51 [INFO] [marker] Completed conversion for resources\no_contents.pdf in 7.54 seconds
+2025-04-06 15:17:51 [INFO] [process_file] Finished processing for resources\no_contents.pdf in 11.37 seconds
+2025-04-06 15:17:51 [INFO] [process_file] Starting processing for resources\overlay.pdf
+2025-04-06 15:17:51 [INFO] [pymupdf4llm] Starting conversion for resources\overlay.pdf
+2025-04-06 15:17:51 [INFO] [pymupdf4llm] Completed conversion for resources\overlay.pdf in 0.03 seconds
+2025-04-06 15:17:51 [INFO] [markitdown] Starting conversion for resources\overlay.pdf
+2025-04-06 15:17:51 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:17:51 [INFO] [markitdown] Completed conversion for resources\overlay.pdf in 0.06 seconds
+2025-04-06 15:17:51 [INFO] [docling] Starting conversion for resources\overlay.pdf
+2025-04-06 15:17:51 [INFO] Going to convert document batch...
+2025-04-06 15:17:51 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:17:51 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:52 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:53 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:17:54 [INFO] Processing document overlay.pdf
+2025-04-06 15:17:55 [INFO] Finished converting document overlay.pdf in 4.17 sec.
+2025-04-06 15:17:55 [INFO] [docling] Completed conversion for resources\overlay.pdf in 4.17 seconds
+2025-04-06 15:17:55 [INFO] [marker] Starting conversion for resources\overlay.pdf
+2025-04-06 15:18:01 [INFO] [marker] Completed conversion for resources\overlay.pdf in 6.29 seconds
+2025-04-06 15:18:01 [INFO] [process_file] Finished processing for resources\overlay.pdf in 10.56 seconds
+2025-04-06 15:18:01 [INFO] [process_file] Starting processing for resources\palette.pdf
+2025-04-06 15:18:01 [INFO] [pymupdf4llm] Starting conversion for resources\palette.pdf
+2025-04-06 15:18:01 [INFO] [pymupdf4llm] Completed conversion for resources\palette.pdf in 0.02 seconds
+2025-04-06 15:18:01 [INFO] [markitdown] Starting conversion for resources\palette.pdf
+2025-04-06 15:18:01 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:18:01 [INFO] [markitdown] Completed conversion for resources\palette.pdf in 0.05 seconds
+2025-04-06 15:18:01 [INFO] [docling] Starting conversion for resources\palette.pdf
+2025-04-06 15:18:01 [INFO] Going to convert document batch...
+2025-04-06 15:18:01 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:18:01 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:02 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:03 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:04 [INFO] Processing document palette.pdf
+2025-04-06 15:18:17 [INFO] Finished converting document palette.pdf in 16.01 sec.
+2025-04-06 15:18:17 [INFO] [docling] Completed conversion for resources\palette.pdf in 16.10 seconds
+2025-04-06 15:18:17 [INFO] [marker] Starting conversion for resources\palette.pdf
+2025-04-06 15:18:25 [INFO] [marker] Completed conversion for resources\palette.pdf in 7.65 seconds
+2025-04-06 15:18:25 [INFO] [process_file] Finished processing for resources\palette.pdf in 23.84 seconds
+2025-04-06 15:18:25 [INFO] [process_file] Starting processing for resources\poster.pdf
+2025-04-06 15:18:25 [INFO] [pymupdf4llm] Starting conversion for resources\poster.pdf
+2025-04-06 15:18:26 [INFO] [pymupdf4llm] Completed conversion for resources\poster.pdf in 1.26 seconds
+2025-04-06 15:18:26 [INFO] [markitdown] Starting conversion for resources\poster.pdf
+2025-04-06 15:18:26 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:18:26 [INFO] [markitdown] Completed conversion for resources\poster.pdf in 0.21 seconds
+2025-04-06 15:18:26 [INFO] [docling] Starting conversion for resources\poster.pdf
+2025-04-06 15:18:26 [INFO] Going to convert document batch...
+2025-04-06 15:18:26 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:18:26 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:28 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:29 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:18:29 [INFO] Processing document poster.pdf
+2025-04-06 15:19:16 [INFO] Finished converting document poster.pdf in 49.58 sec.
+2025-04-06 15:19:16 [INFO] [docling] Completed conversion for resources\poster.pdf in 49.61 seconds
+2025-04-06 15:19:16 [INFO] [marker] Starting conversion for resources\poster.pdf
+2025-04-06 15:19:32 [INFO] [marker] Completed conversion for resources\poster.pdf in 15.92 seconds
+2025-04-06 15:19:32 [INFO] [process_file] Finished processing for resources\poster.pdf in 67.04 seconds
+2025-04-06 15:19:32 [INFO] [process_file] Starting processing for resources\rotated_skew.pdf
+2025-04-06 15:19:32 [INFO] [pymupdf4llm] Starting conversion for resources\rotated_skew.pdf
+2025-04-06 15:19:33 [INFO] [pymupdf4llm] Completed conversion for resources\rotated_skew.pdf in 1.48 seconds
+2025-04-06 15:19:33 [INFO] [markitdown] Starting conversion for resources\rotated_skew.pdf
+2025-04-06 15:19:34 [INFO] [markitdown] Completed conversion for resources\rotated_skew.pdf in 0.07 seconds
+2025-04-06 15:19:34 [INFO] [docling] Starting conversion for resources\rotated_skew.pdf
+2025-04-06 15:19:34 [INFO] Going to convert document batch...
+2025-04-06 15:19:34 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:19:34 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:19:35 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:19:36 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:19:36 [INFO] Processing document rotated_skew.pdf
+2025-04-06 15:20:19 [INFO] Finished converting document rotated_skew.pdf in 45.44 sec.
+2025-04-06 15:20:19 [INFO] [docling] Completed conversion for resources\rotated_skew.pdf in 45.45 seconds
+2025-04-06 15:20:19 [INFO] [marker] Starting conversion for resources\rotated_skew.pdf
+2025-04-06 15:20:27 [INFO] [marker] Completed conversion for resources\rotated_skew.pdf in 8.42 seconds
+2025-04-06 15:20:27 [INFO] [process_file] Finished processing for resources\rotated_skew.pdf in 55.44 seconds
+2025-04-06 15:20:27 [INFO] [process_file] Starting processing for resources\skew.pdf
+2025-04-06 15:20:27 [INFO] [pymupdf4llm] Starting conversion for resources\skew.pdf
+2025-04-06 15:20:28 [INFO] [pymupdf4llm] Completed conversion for resources\skew.pdf in 0.20 seconds
+2025-04-06 15:20:28 [INFO] [markitdown] Starting conversion for resources\skew.pdf
+2025-04-06 15:20:28 [INFO] [markitdown] Completed conversion for resources\skew.pdf in 0.05 seconds
+2025-04-06 15:20:28 [INFO] [docling] Starting conversion for resources\skew.pdf
+2025-04-06 15:20:28 [INFO] Going to convert document batch...
+2025-04-06 15:20:28 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:20:28 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:20:29 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:20:30 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:20:30 [INFO] Processing document skew.pdf
+2025-04-06 15:21:05 [INFO] Finished converting document skew.pdf in 37.82 sec.
+2025-04-06 15:21:05 [INFO] [docling] Completed conversion for resources\skew.pdf in 37.83 seconds
+2025-04-06 15:21:05 [INFO] [marker] Starting conversion for resources\skew.pdf
+2025-04-06 15:21:14 [INFO] [marker] Completed conversion for resources\skew.pdf in 8.57 seconds
+2025-04-06 15:21:14 [INFO] [process_file] Finished processing for resources\skew.pdf in 46.68 seconds
+2025-04-06 15:21:14 [INFO] [process_file] Starting processing for resources\tagged.pdf
+2025-04-06 15:21:14 [INFO] [pymupdf4llm] Starting conversion for resources\tagged.pdf
+2025-04-06 15:21:14 [INFO] [pymupdf4llm] Completed conversion for resources\tagged.pdf in 0.07 seconds
+2025-04-06 15:21:14 [INFO] [markitdown] Starting conversion for resources\tagged.pdf
+2025-04-06 15:21:14 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:21:14 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:21:14 [INFO] [markitdown] Completed conversion for resources\tagged.pdf in 0.07 seconds
+2025-04-06 15:21:14 [INFO] [docling] Starting conversion for resources\tagged.pdf
+2025-04-06 15:21:14 [INFO] Going to convert document batch...
+2025-04-06 15:21:14 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:21:14 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:16 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:16 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:17 [INFO] Processing document tagged.pdf
+2025-04-06 15:21:22 [INFO] Finished converting document tagged.pdf in 7.29 sec.
+2025-04-06 15:21:22 [INFO] [docling] Completed conversion for resources\tagged.pdf in 7.29 seconds
+2025-04-06 15:21:22 [INFO] [marker] Starting conversion for resources\tagged.pdf
+2025-04-06 15:21:35 [INFO] [marker] Completed conversion for resources\tagged.pdf in 13.97 seconds
+2025-04-06 15:21:36 [INFO] [process_file] Finished processing for resources\tagged.pdf in 21.43 seconds
+2025-04-06 15:21:36 [INFO] [process_file] Starting processing for resources\toc.pdf
+2025-04-06 15:21:36 [INFO] [pymupdf4llm] Starting conversion for resources\toc.pdf
+2025-04-06 15:21:36 [INFO] [pymupdf4llm] Completed conversion for resources\toc.pdf in 0.13 seconds
+2025-04-06 15:21:36 [INFO] [markitdown] Starting conversion for resources\toc.pdf
+2025-04-06 15:21:36 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:21:36 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:21:36 [INFO] [markitdown] Completed conversion for resources\toc.pdf in 0.22 seconds
+2025-04-06 15:21:36 [INFO] [docling] Starting conversion for resources\toc.pdf
+2025-04-06 15:21:36 [INFO] Going to convert document batch...
+2025-04-06 15:21:36 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:21:36 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:37 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:38 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:21:38 [INFO] Processing document toc.pdf
+2025-04-06 15:21:56 [INFO] Finished converting document toc.pdf in 20.21 sec.
+2025-04-06 15:21:56 [INFO] [docling] Completed conversion for resources\toc.pdf in 20.22 seconds
+2025-04-06 15:21:56 [INFO] [marker] Starting conversion for resources\toc.pdf
+2025-04-06 15:22:05 [INFO] [marker] Completed conversion for resources\toc.pdf in 8.47 seconds
+2025-04-06 15:22:05 [INFO] [process_file] Finished processing for resources\toc.pdf in 29.07 seconds
+2025-04-06 15:22:05 [INFO] [process_file] Starting processing for resources\trivial.pdf
+2025-04-06 15:22:05 [INFO] [pymupdf4llm] Starting conversion for resources\trivial.pdf
+2025-04-06 15:22:05 [INFO] [pymupdf4llm] Completed conversion for resources\trivial.pdf in 0.01 seconds
+2025-04-06 15:22:05 [INFO] [markitdown] Starting conversion for resources\trivial.pdf
+2025-04-06 15:22:05 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:22:05 [INFO] [markitdown] Completed conversion for resources\trivial.pdf in 0.06 seconds
+2025-04-06 15:22:05 [INFO] [docling] Starting conversion for resources\trivial.pdf
+2025-04-06 15:22:05 [INFO] Going to convert document batch...
+2025-04-06 15:22:05 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:22:05 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:06 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:07 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:07 [INFO] Processing document trivial.pdf
+2025-04-06 15:22:08 [INFO] Finished converting document trivial.pdf in 3.48 sec.
+2025-04-06 15:22:08 [INFO] [docling] Completed conversion for resources\trivial.pdf in 3.49 seconds
+2025-04-06 15:22:08 [INFO] [marker] Starting conversion for resources\trivial.pdf
+2025-04-06 15:22:16 [INFO] [marker] Completed conversion for resources\trivial.pdf in 7.39 seconds
+2025-04-06 15:22:16 [INFO] [process_file] Finished processing for resources\trivial.pdf in 10.97 seconds
+2025-04-06 15:22:16 [INFO] [process_file] Starting processing for resources\truetype_font_nomapping.pdf
+2025-04-06 15:22:16 [INFO] [pymupdf4llm] Starting conversion for resources\truetype_font_nomapping.pdf
+2025-04-06 15:22:16 [INFO] [pymupdf4llm] Completed conversion for resources\truetype_font_nomapping.pdf in 0.02 seconds
+2025-04-06 15:22:16 [INFO] [markitdown] Starting conversion for resources\truetype_font_nomapping.pdf
+2025-04-06 15:22:16 [INFO] [markitdown] Completed conversion for resources\truetype_font_nomapping.pdf in 0.06 seconds
+2025-04-06 15:22:16 [INFO] [docling] Starting conversion for resources\truetype_font_nomapping.pdf
+2025-04-06 15:22:16 [INFO] Going to convert document batch...
+2025-04-06 15:22:16 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:22:16 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:17 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:19 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:19 [INFO] Processing document truetype_font_nomapping.pdf
+2025-04-06 15:22:20 [INFO] Finished converting document truetype_font_nomapping.pdf in 4.74 sec.
+2025-04-06 15:22:20 [INFO] [docling] Completed conversion for resources\truetype_font_nomapping.pdf in 4.74 seconds
+2025-04-06 15:22:20 [INFO] [marker] Starting conversion for resources\truetype_font_nomapping.pdf
+2025-04-06 15:22:31 [INFO] [marker] Completed conversion for resources\truetype_font_nomapping.pdf in 10.89 seconds
+2025-04-06 15:22:31 [INFO] [process_file] Finished processing for resources\truetype_font_nomapping.pdf in 15.75 seconds
+2025-04-06 15:22:31 [INFO] [process_file] Starting processing for resources\type3_font_nomapping.pdf
+2025-04-06 15:22:31 [INFO] [pymupdf4llm] Starting conversion for resources\type3_font_nomapping.pdf
+2025-04-06 15:22:31 [INFO] [pymupdf4llm] Completed conversion for resources\type3_font_nomapping.pdf in 0.02 seconds
+2025-04-06 15:22:31 [INFO] [markitdown] Starting conversion for resources\type3_font_nomapping.pdf
+2025-04-06 15:22:31 [INFO] [markitdown] Completed conversion for resources\type3_font_nomapping.pdf in 0.05 seconds
+2025-04-06 15:22:31 [INFO] [docling] Starting conversion for resources\type3_font_nomapping.pdf
+2025-04-06 15:22:31 [INFO] Going to convert document batch...
+2025-04-06 15:22:31 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:22:31 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:33 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:34 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:34 [INFO] Processing document type3_font_nomapping.pdf
+2025-04-06 15:22:35 [INFO] Finished converting document type3_font_nomapping.pdf in 3.91 sec.
+2025-04-06 15:22:35 [INFO] [docling] Completed conversion for resources\type3_font_nomapping.pdf in 3.91 seconds
+2025-04-06 15:22:35 [INFO] [marker] Starting conversion for resources\type3_font_nomapping.pdf
+2025-04-06 15:22:43 [INFO] [marker] Completed conversion for resources\type3_font_nomapping.pdf in 7.73 seconds
+2025-04-06 15:22:43 [INFO] [process_file] Finished processing for resources\type3_font_nomapping.pdf in 11.73 seconds
+2025-04-06 15:22:43 [INFO] [process_file] Starting processing for resources\vector.pdf
+2025-04-06 15:22:43 [INFO] [pymupdf4llm] Starting conversion for resources\vector.pdf
+2025-04-06 15:22:43 [INFO] [pymupdf4llm] Completed conversion for resources\vector.pdf in 0.13 seconds
+2025-04-06 15:22:43 [INFO] [markitdown] Starting conversion for resources\vector.pdf
+2025-04-06 15:22:43 [WARNING] CropBox missing from /Page, defaulting to MediaBox
+2025-04-06 15:22:43 [INFO] [markitdown] Completed conversion for resources\vector.pdf in 0.11 seconds
+2025-04-06 15:22:43 [INFO] [docling] Starting conversion for resources\vector.pdf
+2025-04-06 15:22:43 [INFO] Going to convert document batch...
+2025-04-06 15:22:43 [INFO] Initializing pipeline for StandardPdfPipeline with options hash 3d2abd0e021741887551c73bd132b421
+2025-04-06 15:22:43 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:45 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:45 [INFO] Accelerator device: 'cuda:0'
+2025-04-06 15:22:46 [INFO] Processing document vector.pdf
+2025-04-06 15:22:47 [INFO] Finished converting document vector.pdf in 3.97 sec.
+2025-04-06 15:22:47 [INFO] [docling] Completed conversion for resources\vector.pdf in 3.97 seconds
+2025-04-06 15:22:47 [INFO] [marker] Starting conversion for resources\vector.pdf
+2025-04-06 15:22:55 [INFO] [marker] Completed conversion for resources\vector.pdf in 8.24 seconds
+2025-04-06 15:22:56 [INFO] [process_file] Finished processing for resources\vector.pdf in 12.48 seconds
+2025-04-06 15:22:56 [INFO] All files have been processed in 0.00 seconds.
