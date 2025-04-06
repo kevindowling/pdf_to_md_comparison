@@ -89,6 +89,10 @@
           <h2>Pymupdf4llm Conversion</h2>
           <div class="content" id="content-pymupdf4llm"></div>
         </div>
+        <div class="slide" id="slide-zerox">
+          <h2>Zerox Conversion</h2>
+          <div class="content" id="content-zerox"></div>
+        </div>
       </div>
       <div class="carousel-buttons">
         <button id="prevBtn">Previous</button>
@@ -140,7 +144,7 @@
 
     // Load all markdown conversions for the selected file
     function loadAllMarkdown(file) {
-      const conversions = ['docling', 'marker', 'markitdown', 'pymupdf4llm'];
+      const conversions = ['docling', 'marker', 'markitdown', 'pymupdf4llm', 'zerox'];
       conversions.forEach(conv => {
         loadMarkdown(conv, file);
       });

@@ -2,6 +2,7 @@ import asyncio
 import pathlib
 import time
 import logging
+import os
 
 import pymupdf4llm
 from docling.document_converter import DocumentConverter
@@ -13,6 +14,8 @@ from marker.converters.pdf import PdfConverter
 from marker.models import create_model_dict
 from marker.output import text_from_rendered
 import torch
+
+from pyzerox import zerox
 
 # Explicit logging configuration to output to both file and console
 logger = logging.getLogger()
@@ -95,8 +98,25 @@ def pdf_to_md_marker(filename: str):
     except Exception as e:
         logging.exception("[marker] Exception during conversion for %s: %s", filename, e)
 
+async def pdf_to_md_zerox(filename:str):
 
+    try:
+        start_time = time.perf_counter()
+        model = "gpt-4o-mini" ## openai model
 
+        ## process only some pages or all
+        select_pages = None ## None for all, but could be int or list(int) page numbers (1 indexed)
+
+        result = await zerox(file_path=filename, model=model, output_dir="zerox",
+                            custom_system_prompt=None,select_pages=select_pages)
+
+        elapsed = time.perf_counter() - start_time
+        logging.info("[zerox] Completed conversion for %s in %.2f seconds", filename, elapsed)
+        return result
+    except Exception as e:
+        logging.exception("[zerox] Exception during conversion for %s: %s", filename, e)
+
+        
 # Async wrapper to run the conversion functions concurrently for a single file.
 def process_file(filename: str):
     file_start_time = time.perf_counter()
@@ -111,7 +131,7 @@ def process_file(filename: str):
     file_elapsed = time.perf_counter() - file_start_time
     logging.info("[process_file] Finished processing for %s in %.2f seconds", filename, file_elapsed)
 
-def main():
+async def main():
     resources_path = pathlib.Path("resources")
     tasks = []
 
@@ -122,8 +142,8 @@ def main():
         return
 
     logging.info("Found %d PDF file(s) in the resources directory.", len(pdf_files))
-    for pdf_file in pdf_files:
-        process_file(str(pdf_file))
+
+    result = await pdf_to_md_zerox("resources/cardinal.pdf")
     
     overall_start = time.perf_counter()
     # Run all conversion tasks concurrently

@@ -1,0 +1,1 @@
+I'm unable to extract content from images or PDFs. If you have text or a specific request, please provide it in a text format!

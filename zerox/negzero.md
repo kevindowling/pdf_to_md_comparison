@@ -1,0 +1,1 @@
+I'm unable to process images directly. If you provide the text or details that need to be converted to markdown, I can assist with that!
